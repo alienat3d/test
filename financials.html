@@ -12,7 +12,7 @@
 	<meta name="description"
 		content="«Домовята» - детский социально-реабилитационный центр">
 	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 	<meta property="og:url"
 		content="">
 	<meta property="og:title"
@@ -60,7 +60,6 @@
 	<!-- ==| JS Scripts |== -->
 	<script defer
 		src="./js/app.min.js"></script>
-
 </head>
 <!-- === HEADER === -->
 <header class="header container">
@@ -74,8 +73,7 @@
 		<span class="header__title title">
 			<span>Детский</span> социально-реабилитационный <span>центр</span>
 		</span>
-		<button class="header__burger-btn-wrapper"
-			aria-controls="nav">
+		<button class="header__burger-btn-wrapper">
 			<span class="header__burger-btn"
 				data-state="off">
 				Навигационное меню
@@ -169,10 +167,10 @@
 						<p class="documents__item-name">Финансовый отчёт за 2021 год</p>
 					</li>
 				</ul>
+				
 				<!-- == Donate Button == -->
-				<button class="documents__donate-button">
-					<div class="donate-button__text">ХОЧУ ПОМОЧЬ</div>
-				</button>
+				<a class="donate-button" href="donate.html">Хочу помочь</a>
+
 				<!-- == Decor Stars == -->
 				<svg class="documents__decor-pink-medium-star decor-star"
 					width="94"
@@ -344,6 +342,7 @@
 <!-- === / FOOTER === -->
 <!-- ==| VENDOR JAVASCRIPT FILES |== -->
 <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
 </body>
 
 </html>
